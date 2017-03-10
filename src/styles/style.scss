@@ -1,0 +1,64 @@
+* {
+	font-family: Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+	font-family: 'Orbitron';
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+    background-image: url("http://eskipaper.com/images/back-to-the-future-wallpaper-1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	padding-bottom: 150px;
+	background-color: rgba(142,142,142,.6);
+}
+
+.nav {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+	color: white;
+}
+
+h2 {
+	font-size: 150px;
+	text-align: center;
+	color: white;
+}
+
+button {
+	width: 25%;
+	padding: 1em;
+	margin: 1em;
+	font-size: 20px;
+	letter-spacing: 3px;
+	background-color: transparent;
+	border-radius: 50%;
+	color: white;
+}
+
+button:hover {
+	cursor: pointer;
+	background: rgba(142,142,142,.4);
+}
+
+button:focus {
+	outline: 0;
+}
+
+
