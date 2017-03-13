@@ -20,7 +20,7 @@ body {
 	position: absolute;
 	top: 0;
 	padding-bottom: 150px;
-	background-color: rgba(142,142,142,.6);
+	background-color: rgba(142,142,142,.4);
 }
 
 .nav {
@@ -61,4 +61,43 @@ button:focus {
 	outline: 0;
 }
 
+.stop {
+	border: 2px solid #E55934;
+	color: #E55934
+}
 
+.forward {
+	border: 2px solid #4CE0B3;
+	color: #4CE0B3
+}
+
+.backward {
+	border: 2px solid #5BC0EB;
+	color: #5BC0EB
+}
+
+.forward-year {
+	color: #4CE0B3;
+}
+
+.backward-year {
+	color: #5BC0EB;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.stopped-year {
+	color: #E55934;
+	animation: blink 2s;
+    animation-iteration-count: infinite;
+}
